@@ -1,0 +1,9 @@
+<div fxLayout="column" style="margin-left: 20px">
+  <h1>List of courses</h1>
+  <div class="course-grid">
+    <div fxLayout="row wrap" fxLayoutGap="20px" class="course-container">
+      <app-card-course fxLayoutAlign="space-around stretch" *ngFor="let course of courses"
+                       [course]="course"></app-card-course>
+    </div>
+  </div>
+</div>
