@@ -1,21 +1,29 @@
-import {BrowserModule} from '@angular/platform-browser';
-import {NgModule} from '@angular/core';
+import { HttpClientModule }        from '@angular/common/http';
+import { NgModule }                from '@angular/core';
+import { FlexLayoutModule }        from '@angular/flex-layout';
+import { BrowserModule }           from '@angular/platform-browser';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { AppRoutingModule }        from './app-routing.module';
 
-import {AppComponent} from './app.component';
-import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
-import {FlexLayoutModule} from '@angular/flex-layout';
+import { AppComponent }   from './app.component';
+import { MaterialModule } from './shared/material/material.module';
+import { TruncatePipe } from './shared/pipes/truncate.pipe';
 
-@NgModule({
-  declarations: [
-    AppComponent
-  ],
-  imports: [
-    BrowserModule,
-    BrowserAnimationsModule,
-    FlexLayoutModule
-  ],
-  providers: [],
-  bootstrap: [AppComponent]
-})
+@NgModule( {
+	declarations: [
+		AppComponent
+	],
+	imports: [
+		BrowserModule,
+		BrowserAnimationsModule,
+		FlexLayoutModule,
+		MaterialModule,
+		AppRoutingModule,
+		HttpClientModule
+	],
+	providers: [],
+	exports: [],
+	bootstrap: [ AppComponent ]
+} )
 export class AppModule {
 }
