@@ -1,4 +1,4 @@
-<div fxLayout="column" fxLayoutGap="15px" class="enroll-dialog-container">
+<div class="enroll-dialog-container" fxLayout="column" fxLayoutGap="15px">
   <div class="enroll-dialog-header">
     Enroll the <span class="course-title">"{{ course.title }}"</span> course!
   </div>
@@ -9,7 +9,7 @@
     </p>
   </div>
   <div class="enroll-dialog-footer" fxLayout="column" fxLayoutGap="10px">
-    <button mat-raised-button color="primary" (click)="enroll()">Enroll</button>
-    <button mat-raised-button (click)="cancel()">Cancel</button>
+    <button (click)="enroll()" color="primary" mat-raised-button>Enroll</button>
+    <button (click)="cancel()" mat-raised-button>Cancel</button>
   </div>
 </div>

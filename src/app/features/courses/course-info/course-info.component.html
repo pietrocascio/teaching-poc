@@ -1,32 +1,32 @@
 <mat-card>
-  <mat-card-header fxLayoutAlign="center" class="highlighted">
+  <mat-card-header class="highlighted" fxLayoutAlign="center">
     <mat-card-title><strong>{{ course.title }}</strong></mat-card-title>
   </mat-card-header>
   <mat-card-content mat-dialog-content>
-    <div fxLayout="column" fxLayoutGap="20px" class="course-info-container">
-      <div fxLayout="row" fxLayoutGap="10px" class="info-block">
-        <span fxFlex="15" class="info-label">Title</span>
-        <span fxFlex="85" class="info-value"><strong>{{ course.title }}</strong></span>
+    <div class="course-info-container" fxLayout="column" fxLayoutGap="20px">
+      <div class="info-block" fxLayout="row" fxLayoutGap="10px">
+        <span class="info-label" fxFlex="15">Title</span>
+        <span class="info-value" fxFlex="85"><strong>{{ course.title }}</strong></span>
       </div>
-      <div fxLayout="row" fxLayoutGap="10px" class="info-block">
-        <span fxFlex="15" class="info-label">Tagline</span>
-        <span fxFlex="85" class="info-value"><strong>{{ course.tagline }}</strong></span>
+      <div class="info-block" fxLayout="row" fxLayoutGap="10px">
+        <span class="info-label" fxFlex="15">Tagline</span>
+        <span class="info-value" fxFlex="85"><strong>{{ course.tagline }}</strong></span>
       </div>
-      <div fxLayout="row" fxLayoutGap="10px" class="info-block">
-        <span fxFlex="15" class="info-label">Description</span>
-        <span fxFlex="85" class="info-value"><strong>{{ course.description }}</strong></span>
+      <div class="info-block" fxLayout="row" fxLayoutGap="10px">
+        <span class="info-label" fxFlex="15">Description</span>
+        <span class="info-value" fxFlex="85"><strong>{{ course.description }}</strong></span>
       </div>
       <div class="enroll-dialog-footer" fxLayout="row" fxLayoutGap="20px">
-        <div fxFlex fxLayoutAlign="center" class="highlighted">Start Date:
+        <div class="highlighted" fxFlex fxLayoutAlign="center">Start Date:
           <span class="date">{{ course.startDate | date : 'dd/MM/y' }}</span>
         </div>
-        <div fxFlex fxLayoutAlign="center" class="highlighted">End Date:
+        <div class="highlighted" fxFlex fxLayoutAlign="center">End Date:
           <span class="date">{{ course.endDate | date : 'dd/MM/y'}}</span>
         </div>
       </div>
     </div>
   </mat-card-content>
   <mat-card-actions align="center">
-    <button mat-button (click)="close()">Close</button>
+    <button (click)="close()" mat-button>Close</button>
   </mat-card-actions>
 </mat-card>

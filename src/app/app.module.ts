@@ -7,7 +7,6 @@ import { AppRoutingModule }        from './app-routing.module';
 
 import { AppComponent }   from './app.component';
 import { MaterialModule } from './shared/material/material.module';
-import { TruncatePipe } from './shared/pipes/truncate.pipe';
 
 @NgModule( {
 	declarations: [

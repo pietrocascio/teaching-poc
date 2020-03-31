@@ -3,12 +3,12 @@
     <mat-card-title>{{ course.title }}</mat-card-title>
     <mat-card-subtitle>{{ course.tagline }}</mat-card-subtitle>
   </mat-card-title-group>
-  <img class="featured-image" *ngIf="course.featuredImage" matCardImage [src]="course.featuredImage"
-       [alt]="course.title">
+  <img *ngIf="course.featuredImage" [alt]="course.title" [src]="course.featuredImage" class="featured-image"
+       matCardImage>
   <mat-card-content>{{ course.description | truncate: 50 }}</mat-card-content>
   <mat-card-actions align="center">
-    <button mat-raised-button (click)="enroll()">Enroll</button>
-    <button mat-raised-button (click)="getInfo()">More Info</button>
+    <button (click)="enroll()" mat-raised-button>Enroll</button>
+    <button (click)="getInfo()" mat-raised-button>More Info</button>
 
   </mat-card-actions>
   <mat-card-footer>
