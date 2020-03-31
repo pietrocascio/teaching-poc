@@ -1,0 +1,9 @@
+.card-footer {
+    padding: 5px 0 5px 15px;
+    background-color: darkorchid;
+    color: white;
+}
+
+.date span.label {
+    font-weight: bold
+}

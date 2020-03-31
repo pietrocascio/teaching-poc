@@ -1,0 +1,20 @@
+<mat-card>
+  <mat-card-title-group>
+    <mat-card-title>{{ course.title }}</mat-card-title>
+    <mat-card-subtitle>{{ course.tagline }}</mat-card-subtitle>
+  </mat-card-title-group>
+  <img class="featured-image" *ngIf="course.featuredImage" matCardImage [src]="course.featuredImage"
+       [alt]="course.title">
+  <mat-card-content>{{ course.description | truncate: 50 }}</mat-card-content>
+  <mat-card-actions align="center">
+    <button mat-raised-button (click)="enroll()">Enroll</button>
+    <button mat-raised-button (click)="getInfo()">More Info</button>
+
+  </mat-card-actions>
+  <mat-card-footer>
+    <div class="card-footer" fxLayout="column">
+      <span class="date"><span class="label">Start:</span> {{ course.startDate | date : 'dd, MMM y' }}</span>
+      <span class="date"><span class="label">End:</span> {{ course.endDate | date : 'dd, MMM y'}}</span>
+    </div>
+  </mat-card-footer>
+</mat-card>
