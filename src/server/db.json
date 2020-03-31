@@ -2,24 +2,54 @@
   "courses": [
     {
       "id": 1,
-      "title": "Course 1",
-      "author": "Author 1",
-      "description": "Course 1 description",
-      "feature_image": ""
+      "title": "Angular the right way",
+      "tagline": "One framework to rule them all!",
+      "category": "Front-end, Angular",
+      "author": "Pietro Cascio",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut id libero imperdiet, efficitur nibh et, eleifend nibh. Nulla maximus nisl vitae diam maximus tincidunt. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque aliquam nec risus at convallis. Duis egestas eros non dolor eleifend, in bibendum lectus vulputate. Maecenas quis pulvinar justo, a mattis mi. Mauris ullamcorper, felis nec euismod fermentum, neque nulla lacinia ante, eget euismod risus lorem non ex. Morbi pharetra, mi id venenatis luctus, enim turpis aliquam lectus, non euismod lacus arcu et massa. Nulla feugiat justo ac lacinia condimentum. Integer sem lacus, placerat quis orci id, rhoncus accumsan enim. Integer maximus viverra eros eu gravida.\n Integer dapibus magna dui, in ullamcorper ex consequat quis. Nunc bibendum, augue vitae malesuada suscipit, nulla urna blandit eros, eget pulvinar lorem arcu nec eros. Pellentesque tempor, ligula eu egestas convallis, nisl dui sagittis quam, non volutpat ante leo a ipsum. Vestibulum suscipit dui felis, scelerisque cursus elit cursus id. Etiam rutrum nec purus et ullamcorper. Nunc tempus semper libero, non vehicula dolor vehicula id. Sed convallis, arcu non fringilla auctor, ipsum nisl porttitor justo, non elementum arcu justo eu arcu.\n Curabitur maximus fringilla urna quis rutrum. Vivamus sollicitudin suscipit massa eget congue. Maecenas aliquet arcu ac tempus facilisis. Aliquam nec convallis sem. Vivamus eget enim eleifend, congue dui id, fringilla nibh. Nam porta auctor neque et tempus. Donec placerat lacinia dolor quis cursus. Pellentesque sit amet sapien est.\n Suspendisse commodo tincidunt erat non commodo. Nunc in augue sed arcu feugiat maximus non convallis lorem. Mauris sagittis consequat justo non congue. Cras nunc ipsum, rhoncus ac venenatis eget, tempus nec dui. Sed venenatis enim quis hendrerit eleifend. Integer non mollis metus. Nam congue bibendum urna, vitae viverra arcu tempus eu. Duis sed congue est, eget congue massa.\n Vestibulum a dignissim eros. Praesent at odio fringilla, rhoncus dolor ut, convallis lectus. Quisque molestie, nulla egestas scelerisque ullamcorper, turpis tellus dignissim arcu, sit amet imperdiet quam tortor at risus. In accumsan laoreet tortor non blandit. Cras ac ipsum quis purus faucibus imperdiet. Suspendisse potenti. Nulla purus arcu, imperdiet sit amet leo vitae, tempus hendrerit nisl.",
+      "featuredImage": "assets/images/angular-featured-image.png",
+      "startDate": "2020-05-01T09:00:00.000Z",
+      "endDate": "2020-10-30T09:00:00.000Z"
     },
     {
       "id": 2,
-      "title": "Course 2",
-      "author": "Author 2",
-      "description": "Course 2 description",
-      "feature_image": ""
+      "title": "React.js in the wild",
+      "tagline": "Facebook should know how to do it!",
+      "category": "Front-end, React",
+      "author": "Jordan Walke",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam quis venenatis velit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Cras fringilla sem vel dolor elementum scelerisque. Duis vitae orci a arcu commodo tristique a non nibh. Maecenas sit amet tempor turpis. Nunc in tellus tellus. Mauris consectetur eleifend orci sit amet lobortis. Vestibulum non dui nec dui dictum tristique ut sed neque. Donec bibendum mauris vel purus sagittis auctor. Aliquam facilisis quam maximus vulputate euismod. Nulla interdum justo metus, at varius urna rutrum ut. Maecenas a feugiat turpis, non facilisis leo.\n Vestibulum suscipit eu orci nec mollis. In elementum facilisis odio, ut blandit nisl pretium vel. In hendrerit ex id nulla accumsan, sit amet lacinia dolor consequat. Proin tincidunt molestie mauris, sed tempor turpis egestas in. Etiam sed convallis dui. Sed iaculis quam non interdum hendrerit. Aenean hendrerit mi vel gravida euismod. Ut at urna a leo ultricies maximus ut at nisl.\n Morbi tristique ipsum mi, id facilisis enim luctus sit amet. Ut porta ex tincidunt dolor eleifend mattis. Vestibulum tempus imperdiet sem, sit amet euismod diam fermentum eget. Vestibulum luctus tortor vel nulla malesuada, sed viverra massa scelerisque. In ex elit, semper vel varius non, congue vitae dui. Nullam imperdiet luctus neque et accumsan. Proin tristique hendrerit elementum. Fusce bibendum enim eget massa volutpat rhoncus quis ut lacus. Ut at malesuada ligula, quis cursus arcu. Nunc faucibus porta odio, id interdum lacus volutpat vel. Nunc feugiat eros id nisi vehicula, id ultrices est egestas. Nulla malesuada justo a eros consequat iaculis. In ut mauris nec tellus feugiat dignissim. Etiam ac felis feugiat, pulvinar tortor eu, consectetur nunc. Suspendisse elementum pellentesque massa sed rutrum. Vestibulum bibendum dolor sed felis porta volutpat.",
+      "featuredImage": "assets/images/react-featured-image.jpg",
+      "startDate": "2020-06-01T09:00:00.000Z",
+      "endDate": "2020-12-31T09:00:00.000Z"
     },
     {
       "id": 3,
-      "title": "Course 3",
-      "author": "Author 3",
-      "description": "Course 3 description",
-      "feature_image": ""
+      "title": "Vue.js, this unknown",
+      "tagline": "This mysterious library :D",
+      "category": "Front-end, Vue.js",
+      "author": "Evan You",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus aliquet enim semper libero ullamcorper dictum. Pellentesque vitae leo quam. Nunc sollicitudin sodales urna, ut blandit nunc feugiat vitae. In velit massa, varius nec dui non, mollis fringilla tortor. In rhoncus, velit vitae lobortis volutpat, metus justo tristique augue, id aliquet tellus erat eget enim. Aliquam ut erat metus. Vivamus congue nibh nec fringilla tempor. In sagittis lacus in ipsum hendrerit ullamcorper. Proin vitae sem magna. Donec sit amet justo lectus.\n Aliquam iaculis ligula vel convallis scelerisque. Praesent semper quam a nibh auctor porttitor. Aenean accumsan fermentum elit eu porta. Cras sed lorem nunc. Suspendisse vitae pellentesque elit, at vulputate nisl. Donec ut fringilla nisl. Quisque sit amet elit purus. Duis id consectetur nisi. Mauris nec lorem fermentum, cursus ante sed, tincidunt diam. Proin non sem sit amet orci aliquet malesuada eget a tellus. Fusce quis magna ut libero lacinia molestie. Duis auctor arcu vitae lectus elementum, at feugiat nisl iaculis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.\n Pellentesque aliquam pharetra gravida. Integer nec elit non magna commodo tincidunt at non turpis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In hac habitasse platea dictumst. Morbi laoreet justo porta metus iaculis, in lacinia nunc imperdiet. Phasellus gravida diam gravida, tincidunt ante et, ornare sapien. Sed quis dolor quis mi feugiat suscipit et vel elit. Praesent quis maximus urna. Phasellus quis odio eget mi vehicula tempus. In pellentesque varius metus sed interdum. Nulla venenatis diam et dolor vulputate finibus. Nullam quis blandit nisi.",
+      "featuredImage": "assets/images/vue-featured-image.png",
+      "startDate": "2020-05-15T09:00:00.000Z",
+      "endDate": "2020-12-05T09:00:00.000Z"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "firstName": "Piero",
+      "lastName": "Cascio",
+      "username": "pierocascio",
+      "password": "password",
+      "courses": []
+    },
+    {
+      "id": 2,
+      "firstName": "John",
+      "lastName": "Doe",
+      "username": "john.doe",
+      "password": "password",
+      "courses": []
     }
   ]
 }
