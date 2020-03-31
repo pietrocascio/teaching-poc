@@ -1,0 +1,32 @@
+<mat-card>
+  <mat-card-header fxLayoutAlign="center" class="highlighted">
+    <mat-card-title><strong>{{ course.title }}</strong></mat-card-title>
+  </mat-card-header>
+  <mat-card-content mat-dialog-content>
+    <div fxLayout="column" fxLayoutGap="20px" class="course-info-container">
+      <div fxLayout="row" fxLayoutGap="10px" class="info-block">
+        <span fxFlex="15" class="info-label">Title</span>
+        <span fxFlex="85" class="info-value"><strong>{{ course.title }}</strong></span>
+      </div>
+      <div fxLayout="row" fxLayoutGap="10px" class="info-block">
+        <span fxFlex="15" class="info-label">Tagline</span>
+        <span fxFlex="85" class="info-value"><strong>{{ course.tagline }}</strong></span>
+      </div>
+      <div fxLayout="row" fxLayoutGap="10px" class="info-block">
+        <span fxFlex="15" class="info-label">Description</span>
+        <span fxFlex="85" class="info-value"><strong>{{ course.description }}</strong></span>
+      </div>
+      <div class="enroll-dialog-footer" fxLayout="row" fxLayoutGap="20px">
+        <div fxFlex fxLayoutAlign="center" class="highlighted">Start Date:
+          <span class="date">{{ course.startDate | date : 'dd/MM/y' }}</span>
+        </div>
+        <div fxFlex fxLayoutAlign="center" class="highlighted">End Date:
+          <span class="date">{{ course.endDate | date : 'dd/MM/y'}}</span>
+        </div>
+      </div>
+    </div>
+  </mat-card-content>
+  <mat-card-actions align="center">
+    <button mat-button (click)="close()">Close</button>
+  </mat-card-actions>
+</mat-card>

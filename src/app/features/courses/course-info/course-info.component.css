@@ -1,0 +1,10 @@
+.highlighted {
+    margin-bottom: 10px;
+    padding: 5px 0 5px 15px;
+    background-color: darkorchid;
+    color: white;
+}
+
+.info-label {
+    font-weight: bold;
+}
