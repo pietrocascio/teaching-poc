@@ -1,0 +1,15 @@
+<div fxLayout="column" fxLayoutGap="15px" class="enroll-dialog-container">
+  <div class="enroll-dialog-header">
+    Enroll the <span class="course-title">"{{ course.title }}"</span> course!
+  </div>
+  <div class="enroll-dialog-content">
+    <p>Are you sure you want to enroll into the course?</p>
+    <p>
+      The start date is on the <span class="date">{{ course.startDate | date : 'dd, MMM y'}}</span>
+    </p>
+  </div>
+  <div class="enroll-dialog-footer" fxLayout="column" fxLayoutGap="10px">
+    <button mat-raised-button color="primary" (click)="enroll()">Enroll</button>
+    <button mat-raised-button (click)="cancel()">Cancel</button>
+  </div>
+</div>
